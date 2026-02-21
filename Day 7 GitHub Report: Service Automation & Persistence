@@ -1,0 +1,13 @@
+Day 7 GitHub Report: Service Automation & Persistence
+Objective
+Transform the Babystore Analytics engine from a manual script into an automated Linux service to ensure 100% uptime and resilience.
+
+Key Achievements
+
+Service Implementation: Created a systemd service configuration (babystore.service) to manage the application lifecycle.
+
+Automation: Enabled "auto-start" on system boot, ensuring the analytics engine is "immortal" and survives server restarts.
+
+Recovery Logic: Configured Restart=always policies so the operating system automatically restarts the app in the event of a code crash.
+
+Network Troubleshooting: Successfully identified and resolved a Security Group conflict that was blocking Port 5000 while maintaining SSH access.
