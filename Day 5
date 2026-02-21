@@ -1,0 +1,11 @@
+Day 5: Dynamic Data Integration
+Objective: Connect the Flask web server to AWS S3 to display live retail analytics.
+
+🛠️ What was built
+S3 Integration: Configured the Flask app using boto3 to fetch objects from a private S3 bucket.
+
+Dynamic Routing: Updated the home route (/) to read, decode, and display data from test.txt instead of static text.
+
+Network Security: Modified AWS Security Groups to allow inbound traffic on Port 5000.
+
+Automated Logging: Implemented a crontab heartbeat script to log server health every 30 minutes.
